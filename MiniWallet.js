@@ -14,7 +14,7 @@ if (!privateKey) {
   process.exit(1);
 }
 
-// Set up the provider (corrected URL format)
+// Set up the provider 
 const web3 = new Web3(
   `https://go.getblock.us/${apiKey}`
 );
